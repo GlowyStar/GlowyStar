@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm 🐍 Glowy Star</h1>
-<h3 align="center">Aspiring backend developer from russia. I'm currently deep diving into the world of Python, learning frameworks: Django and FastAPI</h3>
+<h3 align="center">Aspiring backend developer from Russia. I'm currently deep diving into the world of Python, learning frameworks: Django and FastAPI</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=glowystar&label=Profile%20views&color=0e75b6&style=flat" alt="glowystar" /> </p>
 
