@@ -5,8 +5,6 @@
 
 - 🌱 I’m currently learning **Django, FastAPI**
 
-- 📫 How to reach me **kusenov00@gmail.com**
-
 - 🧠 My leatcode **<a href="https://www.leetcode.com/glowystar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="glowystar" height="30" width="40" /></a>**
 
 
