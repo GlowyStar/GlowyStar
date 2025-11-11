@@ -60,7 +60,7 @@
 - **NVMe-JBOF**: from prototype to production — namespace publish, auto-discover/reattach in cluster.
 - **Cluster observability**: Prometheus + Thanos + Grafana, long-term retention with downsampling → lower disk/CPU overhead.
 - **Zero-downtime DB migrations** (feature flags, phased rollouts, backward-compatible contracts).
-- **Metrocluster (DRBD)**: stabilized replication, split-brain protection, automated failover/failback; passed chaos/load tests.
+- **Metrocluster**: stabilized replication, split-brain protection, automated failover/failback; passed chaos/load tests.
 
 **Product / Web & Mobile (ALONG)**
 - **Auth platform** across services: OTP/OAuth2/phone login, JWT rotation/blacklist, session & cookie policies → fewer auth-related incidents and safer token lifecycle.
