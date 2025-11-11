@@ -15,7 +15,7 @@
 ---
 
 ### Snapshot (4y+ commercial)
-- **Aerodisk — Backend/Systems (high-end Storage, HA):** server side for storage subsystems; SCSI/ALUA, iSCSI, NVMe-oF (TCP/FC/RDMA), NFS/SMB/S3, replication (DRBD), snapshots, CLI & API gateways (FastAPI/Flask), cluster observability (Prometheus+Thanos+Grafana), incident handling (SLO/SLI, runbooks).
+- **Aerodisk — Backend/Systems (high-end Storage, HA):** server side for storage subsystems; SCSI/ALUA, iSCSI, NVMe-oF (TCP/FC/RDMA), NFS/SMB/S3, replication tech's, snapshots, CLI & API gateways (FastAPI/Flask), cluster observability (Prometheus+Thanos+Grafana), incident handling (SLO/SLI, runbooks).
 - **ALONG — Backend for web & mobile:** auth (OTP/OAuth2/phone, JWT blacklist & rotation), subscriptions & payments, notifications; greenfield microservices, DB design & p95/p99 tuning, CI pipelines, customer-facing SDK/docs.
 - **CIIR — EdTech/Robotics backend:** Django/DRF monolith + small Flask services for telemetry ingestion; Celery pipelines, OpenCV preprocessing, MinIO for artifacts, GitHub Actions, basic ELK/Grafana dashboards.
 
