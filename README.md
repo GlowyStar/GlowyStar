@@ -63,7 +63,7 @@
 
 ---
 
-### Selected work (pin these)
+### Selected work
 - **dbaas-sdk-python** — idiomatic client (httpx+pydantic): auth, retries/backoff, pagination, examples, tests  
 - **backup-scheduler** — FastAPI service for backup jobs: health, schedules, metrics, runbooks  
 - **observability-starter** — Prom rules + Grafana dashboards for Python web services  
