@@ -3,7 +3,7 @@
 <p align="center">
   I build reliable backend services and data infrastructure: <b>FastAPI + asyncio</b>, typed APIs (OpenAPI/pydantic),
   observability (<b>Prometheus · Grafana · Thanos · ELK · Sentry</b>), and delivery with <b>Docker · GitLab CI</b>.
-  System background in storage (ALUA, DRBD, NVMe-oF), Linux networking, and HA/failover.
+  System background in storage (ALUA, replication tech's, NVMe-oF), Linux networking, and HA/failover.
 </p>
 
 <p align="center">
@@ -59,7 +59,7 @@
 - **Cluster observability**: Prometheus + Thanos + Grafana, long-term retention with downsampling → lower disk/CPU overhead.  
 - **p95 latency −30–50%** on critical endpoints (indexes, query plans, async clients with pools/backoff).  
 - **Zero-downtime DB migrations** (feature flags, phased rollouts, backward-compatible contracts).  
-- **DRBD Metrocluster**: stabilized replication, split-brain protection, automated failover/failback; passed chaos/load tests.
+- **Metrocluster**: stabilized replication, split-brain protection, automated failover/failback; passed chaos/load tests.
 
 ---
 
