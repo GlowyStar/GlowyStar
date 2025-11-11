@@ -76,10 +76,7 @@
 ---
 
 ### Selected work
-- **dbaas-sdk-python** — idiomatic client (httpx+pydantic): auth, retries/backoff, pagination, examples, tests  
-- **backup-scheduler** — FastAPI service for backup jobs: health, schedules, metrics, runbooks  
-- **observability-starter** — Prom rules + Grafana dashboards for Python web services  
-- **runbooks** — incident checklists (SLO/SLA, failover, PITR notes)
+- **Wait wait...** — Adding after migrating the old GitHub
 
 > I usually keep repos minimal and documented. Feel free to open issues or ping me in Telegram.
 
