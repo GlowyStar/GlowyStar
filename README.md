@@ -49,7 +49,7 @@
 **Ops/Delivery:** Dockerized apps, GitLab CI pipelines, release checklists, runbooks, staging→prod promotion  
 **Observability:** SLI/SLO, alert routing, post-mortems; Prom/Thanos retention & downsampling, Grafana dashboards  
 **Security:** JWT rotation/blacklist, session & cookie policies, idempotent webhooks, rate limits  
-**Storage domain:** LVM/ZFS, SCSI/ALUA, iSCSI, NVMe-oF (TCP/FC/RDMA), NFS/SMB/S3, DRBD replication, snapshots
+**Storage domain:** BTRFS, SCSI/ALUA, iSCSI, NVMe-oF (TCP/FC/RDMA), NFS/SMB/S3, replication tech's, snapshots
 
 ---
 
