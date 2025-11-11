@@ -9,7 +9,7 @@
 <p align="center">
   <a href="mailto:kusenov00@gmail.com">Email</a> ·
   <a href="https://t.me/ImStolas">Telegram</a> ·
-  <a href="https://www.leetcode.com/glowystar">LeetCode</a>
+  <a href="https://www.linkedin.com/in/nikita-kusenov-ba1185386/">LinkedIn</a>
 </p>
 
 ---
