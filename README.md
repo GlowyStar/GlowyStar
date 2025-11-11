@@ -54,12 +54,24 @@
 ---
 
 ### Highlights
-- **ALUA throughput ×2** and **no failover pauses** on link flaps (pathing policy & health checks).  
-- **NVMe-JBOF**: from prototype to production — namespace publishing, auto discover/reattach in cluster.  
-- **Cluster observability**: Prometheus + Thanos + Grafana, long-term retention with downsampling → lower disk/CPU overhead.  
-- **p95 latency −30–50%** on critical endpoints (indexes, query plans, async clients with pools/backoff).  
-- **Zero-downtime DB migrations** (feature flags, phased rollouts, backward-compatible contracts).  
-- **Metrocluster**: stabilized replication, split-brain protection, automated failover/failback; passed chaos/load tests.
+
+**Storage / Systems (Aerodisk)**
+- ALUA throughput ×2 and **no failover pauses** on link flaps (pathing policy & health checks).
+- **NVMe-JBOF**: from prototype to production — namespace publish, auto-discover/reattach in cluster.
+- **Cluster observability**: Prometheus + Thanos + Grafana, long-term retention with downsampling → lower disk/CPU overhead.
+- **Zero-downtime DB migrations** (feature flags, phased rollouts, backward-compatible contracts).
+- **Metrocluster (DRBD)**: stabilized replication, split-brain protection, automated failover/failback; passed chaos/load tests.
+
+**Product / Web & Mobile (ALONG)**
+- **Auth platform** across services: OTP/OAuth2/phone login, JWT rotation/blacklist, session & cookie policies → fewer auth-related incidents and safer token lifecycle.
+- **Payments & subscriptions (YooKassa)**: idempotent webhooks, retries/backoff, reconciliation jobs, refund/chargeback flows → lower failed-payment rate and cleaner finance logs.
+- **Notifications** (email/SMS/push) with delivery tracking; cut end-to-end latency and improved reliability under load.
+- **API performance**: p95 latency −30–50% via indexing, query-plan fixes, async clients with pools; added rate limits & backpressure for stability.
+- **Developer DX**: lightweight Python client SDK (httpx+pydantic), OpenAPI specs, examples → faster external integrations.
+
+**EdTech / Robotics (CIIR)**
+- Shipped **telemetry ingestion MVP** (Django/DRF + Flask hooks + Celery) in 8 weeks; reduced broken uploads to **<1%** via payload validation & idempotency.
+- Reporting endpoints optimized (indexes/denormalization/caching) → p95 ~3× faster; added Sentry alerts & basic Grafana dashboards for quick triage.
 
 ---
 
