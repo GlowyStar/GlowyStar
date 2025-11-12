@@ -76,7 +76,8 @@
 ---
 
 ### Selected work
-- **Wait wait...** — Adding after migrating the old GitHub
+- **fastapi-template-for-small-projects** — Used when starting new projects
+- **fastapi-template-auth-microservice** — Used it when I creating authentication service.
 
 > I usually keep repos minimal and documented. Feel free to open issues or ping me in Telegram.
 
