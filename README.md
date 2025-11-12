@@ -1,5 +1,5 @@
 <!-- Profile Header -->
-<h1 align="center">Hi, I'm Nick — Python Backend/Systems Engineer</h1>
+<h1 align="center">Hi, I'm Nick — Python Backend/Systems Engineer ⭐</h1>
 <p align="center">
   I build reliable backend services and data infrastructure: <b>FastAPI + asyncio</b>, typed APIs (OpenAPI/pydantic),
   observability (<b>Prometheus · Grafana · Thanos · ELK · Sentry</b>), and delivery with <b>Docker · GitLab CI</b>.
