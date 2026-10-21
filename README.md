@@ -1,98 +1,114 @@
-<!-- Profile Header -->
-<h1 align="center">Hi, I'm Nikita — Python Backend/Systems Engineer ⭐</h1>
 <p align="center">
-  I build reliable backend services and data infrastructure: <b>FastAPI + asyncio</b>, typed APIs (OpenAPI/pydantic),
-  observability (<b>Prometheus · Grafana · Thanos · ELK · Sentry</b>), and delivery with <b>Docker · GitLab CI</b>.
-  System background in storage (ALUA, replication tech's, NVMe-oF), Linux networking, and HA/failover.
+  <img src="assets/banner.svg" alt="Nikita Kusenov, Backend Engineer, Python and Go" width="100%">
 </p>
 
 <p align="center">
-  <a href="mailto:kusenov00@gmail.com">Email</a> ·
-  <a href="https://t.me/ImStolas">Telegram</a> ·
-  <a href="https://www.linkedin.com/in/nikita-kusenov-ba1185386/">LinkedIn</a>
+  <a href="https://t.me/ImStolas"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@ImStolas-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/nikita-kusenov-ba1185386/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Nikita_Kusenov-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:kusenov00@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-kusenov00@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
----
+### 👋 Hi, I'm Nikita
 
-### Snapshot (4y+ commercial)
-- **Aerodisk — Backend/Systems (high-end Storage, HA):** server side for storage subsystems; SCSI/ALUA, iSCSI, NVMe-oF (TCP/FC/RDMA), NFS/SMB/S3, replication tech's, snapshots, CLI & API gateways (FastAPI/Flask), cluster observability (Prometheus+Thanos+Grafana), incident handling (SLO/SLI, runbooks).
-- **ALONG — Backend for web & mobile:** auth (OTP/OAuth2/phone, JWT blacklist & rotation), subscriptions & payments, notifications; greenfield microservices, DB design & p95/p99 tuning, CI pipelines, customer-facing SDK/docs.
-- **CIIR — EdTech/Robotics backend:** Django/DRF monolith + small Flask services for telemetry ingestion; Celery pipelines, OpenCV preprocessing, MinIO for artifacts, GitHub Actions, basic ELK/Grafana dashboards.
+Backend engineer with **4 years 9 months** in production, Python and Go. For the last two years I have been building the control backend of a storage system with two controllers at [Aerodisk](https://aerodisk.ru/), where the wrong order of two commands can stop I/O or leave a customer without data. Before that: subscription mobile apps and a medical system for a network of 13 clinics at [ALONG](https://along.pw/), and a robotics learning portal at [CAIR](https://www.cair-world.com/).
 
----
+- 🔭 **Now:** an active-active RAID control module and its CI with integration tests on a two-controller bench
+- 🧠 **Side focus:** AI agents for development, my own system on Claude Code skills, hooks and MCP servers
+- 🌍 **Where:** Vietnam, remote in any time zone, open to relocation to Europe
 
-### Core stack
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.7→3.12-3776AB?logo=python&logoColor=white" />
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-asyncio/httpx-009688?logo=fastapi&logoColor=white" />
-  <img alt="pydantic" src="https://img.shields.io/badge/pydantic-typed_models-E92063" />
-  <img alt="SQLAlchemy" src="https://img.shields.io/badge/SQLAlchemy-2.x-9F2B2F" />
-  <img alt="Django DRF" src="https://img.shields.io/badge/Django-DRF-092E20?logo=django&logoColor=white" />
-  <img alt="gRPC" src="https://img.shields.io/badge/gRPC/REST-contracts-5E5E5E" />
-  <img alt="OpenAPI" src="https://img.shields.io/badge/OpenAPI-contracts-6BA539?logo=openapiinitiative&logoColor=white" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-DB-4169E1?logo=postgresql&logoColor=white" />
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-DB-005C84?logo=mysql&logoColor=white" />
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-cache/queue-DC382D?logo=redis&logoColor=white" />
-  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-local-003B57?logo=sqlite&logoColor=white" />
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-networking/VMs-333?logo=linux&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-containers-2496ED?logo=docker&logoColor=white" />
-  <img alt="GitLab CI" src="https://img.shields.io/badge/GitLab-CI/CD-FC6D26?logo=gitlab&logoColor=white" />
-  <img alt="Prometheus" src="https://img.shields.io/badge/Prometheus-metrics-E6522C?logo=prometheus&logoColor=white" />
-  <img alt="Grafana" src="https://img.shields.io/badge/Grafana-dashboards-F46800?logo=grafana&logoColor=white" />
-  <img alt="Thanos" src="https://img.shields.io/badge/Thanos-long_term-7F3FBF" />
-  <img alt="ELK" src="https://img.shields.io/badge/ELK-central_logs-005571?logo=elastic&logoColor=white" />
-  <img alt="Sentry" src="https://img.shields.io/badge/Sentry-errors-362D59?logo=sentry&logoColor=white" />
-  <img alt="OpenStack" src="https://img.shields.io/badge/OpenStack-Cinder_driver-ED1944?logo=openstack&logoColor=white" />
+## 🏆 Highlights
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><h3>120 s → 12 s</h3><sub>controller failover in a metro cluster under load</sub></td>
+    <td align="center" valign="top" width="33%"><h3>226 → 0</h3><sub>write errors when the link between controllers fails completely</sub></td>
+    <td align="center" valign="top" width="33%"><h3>10 systems</h3><sub>sold after I reworked fault tolerance for a customer's acceptance tests</sub></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><h3>100,000+</h3><sub>sign-ups on the finance tracker backend I designed and launched</sub></td>
+    <td align="center" valign="top"><h3>32 tools</h3><sub>in my AI agent system that takes a task through 10 stages, from analysis to merge request</sub></td>
+    <td align="center" valign="top"><h3>#1</h3><sub>in the team and in the department of 11 developers by company performance metrics</sub></td>
+  </tr>
+</table>
+
+## 🧰 Tech stack
+
+<p align="center">
+  <img alt="Python, Go, Bash, FastAPI, Django, Flask, PostgreSQL, Redis, MongoDB, RabbitMQ, Kafka" src="https://skillicons.dev/icons?i=py,go,bash,fastapi,django,flask,postgres,redis,mongodb,rabbitmq,kafka">
+  <br>
+  <img alt="Linux, Docker, Kubernetes, GitLab, Jenkins, nginx, Prometheus, Grafana, Elasticsearch, Git" src="https://skillicons.dev/icons?i=linux,docker,kubernetes,gitlab,jenkins,nginx,prometheus,grafana,elasticsearch,git">
 </p>
-
-**Data/DB:** schema design, indexes, safe step-by-step migrations, query profiling, p95/p99 latency reduction  
-**Ops/Delivery:** Dockerized apps, GitLab CI pipelines, release checklists, runbooks, staging→prod promotion  
-**Observability:** SLI/SLO, alert routing, post-mortems; Prom/Thanos retention & downsampling, Grafana dashboards  
-**Security:** JWT rotation/blacklist, session & cookie policies, idempotent webhooks, rate limits  
-**Storage domain:** BTRFS, SCSI/ALUA, iSCSI, NVMe-oF (TCP/FC/RDMA), NFS/SMB/S3, replication tech's, snapshots
-
----
-
-### Highlights
-
-**Storage / Systems (Aerodisk)**
-- ALUA throughput ×2 and **no failover pauses** on link flaps (pathing policy & health checks).
-- **NVMe-JBOF**: from prototype to production — namespace publish, auto-discover/reattach in cluster.
-- **Cluster observability**: Prometheus + Thanos + Grafana, long-term retention with downsampling → lower disk/CPU overhead.
-- **Zero-downtime DB migrations** (feature flags, phased rollouts, backward-compatible contracts).
-- **Metrocluster**: stabilized replication, split-brain protection, automated failover/failback; passed chaos/load tests.
-
-**Product / Web & Mobile (ALONG)**
-- **Auth platform** across services: OTP/OAuth2/phone login, JWT rotation/blacklist, session & cookie policies → fewer auth-related incidents and safer token lifecycle.
-- **Payments & subscriptions (YooKassa)**: idempotent webhooks, retries/backoff, reconciliation jobs, refund/chargeback flows → lower failed-payment rate and cleaner finance logs.
-- **Notifications** (email/SMS/push) with delivery tracking; cut end-to-end latency and improved reliability under load.
-- **API performance**: p95 latency −30–50% via indexing, query-plan fixes, async clients with pools; added rate limits & backpressure for stability.
-- **Developer DX**: lightweight Python client SDK (httpx+pydantic), OpenAPI specs, examples → faster external integrations.
-
-**EdTech / Robotics (CIIR)**
-- Shipped **telemetry ingestion MVP** (Django/DRF + Flask hooks + Celery) in 8 weeks; reduced broken uploads to **<1%** via payload validation & idempotency.
-- Reporting endpoints optimized (indexes/denormalization/caching) → p95 ~3× faster; added Sentry alerts & basic Grafana dashboards for quick triage.
-
----
-
-### Selected work
-- **fastapi-template-for-small-projects** — Used when starting new projects
-- **fastapi-template-auth-microservice** — Used it when I creating authentication service.
-
-> I usually keep repos minimal and documented. Feel free to open issues or ping me in Telegram.
-
----
 
 <details>
-<summary>GitHub stats (click to expand)</summary>
+<summary><b>Full stack by area</b></summary>
+<br>
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=glowystar&show_icons=true&hide=contribs&rank_icon=github" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=glowystar&layout=compact&hide=css,html" height="150" />
-</p>
+| Area | What I use |
+|:--|:--|
+| **Languages** | Python 3.11 (asyncio, typing), Go, Bash, SQL |
+| **Backend** | FastAPI, Pydantic, Django (DRF), Flask, REST and OpenAPI, gRPC, WebSocket |
+| **Data** | PostgreSQL with logical replication, SQLAlchemy 2.0, Alembic, Redis, MongoDB, SQLite |
+| **Queues** | Celery, RabbitMQ, Kafka, a task queue on PostgreSQL |
+| **Observability** | Prometheus, Thanos on MinIO, Alertmanager, Grafana, ELK, SNMP |
+| **Delivery** | Docker, Kubernetes, Helm, GitLab CI/CD, Jenkins, RPM, systemd, nginx |
+| **Storage and HA** | iSCSI, FC, NVMe-oF, multipath, ALUA, Ceph RBD, BTRFS, Device Mapper, two-controller cluster |
+| **Testing** | pytest, Go testing, integration tests in CI, fio, vdbench |
+| **AI tooling** | Claude Code (skills, hooks, subagents), MCP servers, LLM agents |
 
 </details>
 
+## 💼 Experience
+
+<details open>
+<summary><b>Aerodisk</b> · storage system maker · Sep 2024 - now</summary>
+<br>
+
+Server side of a storage system in Python and Go: a distributed system of two controllers. Scrum team of 7 developers with a tech lead and 2 QA engineers; customers are banks and large companies.
+
+- Cut controller failover in a metro cluster from 120 to 12 seconds under load.
+- Reworked fault tolerance and backup server access paths for a customer's acceptance tests; the company then sold 10 systems.
+- Fixed storage behavior on a full link failure between controllers: write errors went from 226 to 0.
+- Designed an async background task microservice on FastAPI with fault-tolerant PostgreSQL replication, clean architecture and DDD.
+- Designed and built storage monitoring on Prometheus, Thanos, MinIO and Grafana with metric collectors in Go.
+- Found and fixed a bug that lived in the product since March 2024: data migration reported success but copied nothing.
+- Built an AI agent development system of 32 tools and designed a company MCP server for the documentation base of developers' agents.
+- Writing an active-active RAID control module (a disk array served by both controllers at once) with its GitLab CI: build, test bench and integration tests.
+
+</details>
+
+<details>
+<summary><b>ALONG</b> · mobile development studio · Sep 2023 - Aug 2024</summary>
+<br>
+
+Backends of subscription mobile apps and medical system modules for a network of 13 clinics, in a group of 4 Python developers.
+
+- Designed and launched the backend of a finance tracker: 100,000+ sign-ups.
+- Connected authentication, authorization (OAuth2, JWT) and paid App Store and Google Play subscriptions via Apphud to 5 studio apps.
+- Fixed transfers skewing statistics with a PostgreSQL transaction and chose a composite index for the operations feed with EXPLAIN ANALYZE.
+- Wrote data and document loading in Django for the medical system and extended document generation in Go from a RabbitMQ queue with bounded concurrency.
+- Set up merge request checks in GitLab CI with pytest integration tests on a test PostgreSQL.
+- Mentored two junior developers: split tasks and reviewed their code.
+
+</details>
+
+<details>
+<summary><b>CAIR</b> · robotics education center · Jun 2020 - Dec 2021</summary>
+<br>
+
+Server side of the learning portal for robotics workshops.
+
+- Moved the portal backend from custom code to Django (DRF).
+- Closed an API vulnerability that let students open other students' results.
+- Wrote idempotent robot data intake on Flask: no duplicates after Wi-Fi drops.
+
+</details>
+
+## 🎓 Education and languages
+
+- **Plekhanov Russian University of Economics**, BSc in Applied Informatics with honors, 2024
+- **Bauman Moscow State Technical University**, programming technician (college), 2021
+- Russian (native), English (B2)
+
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=glowystar&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+  <sub>Open to backend roles in Python and Go, remote or with relocation to Europe. The fastest way to reach me is <a href="https://t.me/ImStolas">Telegram</a>.</sub>
 </p>
