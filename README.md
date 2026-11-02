@@ -10,7 +10,7 @@
 
 ### 👋 Hi, I'm Nikita
 
-Backend engineer with **4 years 9 months** in production, Python and Go. For the last two years I have been building the control backend of a storage system with two controllers at [Aerodisk](https://aerodisk.ru/), where the wrong order of two commands can stop I/O or leave a customer without data. Before that: subscription mobile apps and a medical system for a network of 13 clinics at [ALONG](https://along.pw/), and a robotics learning portal at [CAIR](https://www.cair-world.com/).
+Backend engineer with **5 years** in production, Python and Go. For the last two years I have been building the control backend of a storage system with two controllers at [Aerodisk](https://aerodisk.ru/), where the wrong order of two commands can stop I/O or leave a customer without data. Before that: subscription mobile apps and a medical system for a network of 13 clinics at [ALONG](https://along.pw/), and a robotics learning portal at [CAIR](https://www.cair-world.com/).
 
 - 🔭 **Now:** an active-active RAID control module and its CI with integration tests on a two-controller bench
 - 🧠 **Side focus:** AI agents for development, my own system on Claude Code skills, hooks and MCP servers
