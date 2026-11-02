@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://t.me/ImStolas"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@ImStolas-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/nikita-kusenov-ba1185386/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Nikita_Kusenov-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/nikita-kusenov/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Nikita_Kusenov-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:kusenov00@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-kusenov00@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
