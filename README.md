@@ -1,37 +1,25 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Nikita Kusenov, Backend Engineer, Python and Go" width="100%">
+  <img src="assets/banner.svg" alt="Nikita Kusenov, backend engineer for storage systems, Python and Go. I build backend services that keep data available when hardware fails." width="100%">
 </p>
 
 <p align="center">
-  <a href="https://t.me/ImStolas"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@ImStolas-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/nikita-kusenov/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Nikita_Kusenov-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:nikita.kusenov.dev@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-nikita.kusenov.dev@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://kusenov.dev/"><img src="assets/btn-site.svg" alt="kusenov.dev" height="44"></a>
+  <a href="https://t.me/ImStolas"><img src="assets/btn-telegram.svg" alt="Telegram: @ImStolas" height="44"></a>
+  <a href="https://www.linkedin.com/in/nikita-kusenov/"><img src="assets/btn-linkedin.svg" alt="LinkedIn: Nikita Kusenov" height="44"></a>
+  <a href="mailto:nikita.kusenov.dev@gmail.com"><img src="assets/btn-email.svg" alt="Email: nikita.kusenov.dev@gmail.com" height="44"></a>
 </p>
-
-### 👋 Hi, I'm Nikita
 
 Backend engineer working with Python and Go in production. For the last two years I have been building the control backend of a storage system with two controllers at [Aerodisk](https://aerodisk.ru/), where the wrong order of two commands can stop I/O or leave a customer without data. Before that: subscription mobile apps and a medical system for a network of 13 clinics at [ALONG](https://along.pw/), and a robotics learning portal at [CAIR](https://www.cair-world.com/).
 
-- 🔭 **Now:** an active-active RAID control module and its CI with integration tests on a two-controller bench
-- 🧠 **Side focus:** AI agents for development, my own system on Claude Code skills, hooks and MCP servers
-- 🌍 **Where:** Vietnam, remote in any time zone, open to relocation to Europe
+- **Now:** an active-active RAID control module and its CI with integration tests on a two-controller bench
+- **Side focus:** AI agents for development, my own system of agent skills, hooks and MCP servers
+- **Where:** Vietnam, remote in any time zone, open to relocation to Europe
 
-## 🏆 Highlights
+<p><img src="assets/h-highlights.svg" alt="Highlights" width="100%"></p>
 
-<table>
-  <tr>
-    <td align="center" valign="top" width="33%"><h3>120 s → 12 s</h3><sub>controller failover in a metro cluster under load</sub></td>
-    <td align="center" valign="top" width="33%"><h3>226 → 0</h3><sub>write errors when the link between controllers fails completely</sub></td>
-    <td align="center" valign="top" width="33%"><h3>10 systems</h3><sub>sold after I reworked fault tolerance for a customer's acceptance tests</sub></td>
-  </tr>
-  <tr>
-    <td align="center" valign="top"><h3>100,000+</h3><sub>sign-ups on the finance tracker backend I designed and launched</sub></td>
-    <td align="center" valign="top"><h3>32 tools</h3><sub>in my AI agent system that takes a task through 10 stages, from analysis to merge request</sub></td>
-    <td align="center" valign="top"><h3>#1</h3><sub>in the team and in the department of 11 developers by company performance metrics</sub></td>
-  </tr>
-</table>
+<p><img src="assets/highlights.svg" alt="120 s → 12 s: controller failover in a metro cluster under load. 226 → 0: write errors when the link between controllers fails completely. 10 systems: sold after I reworked fault tolerance for a customer's acceptance tests. 100,000+: sign-ups on the finance tracker backend I designed and launched. 32 tools: in my AI agent system that takes a task through 10 stages, from analysis to merge request. #1: in the team and in the department of 11 developers by company performance metrics" width="100%"></p>
 
-## 🧰 Tech stack
+<p><img src="assets/h-stack.svg" alt="Tech stack" width="100%"></p>
 
 <p align="center">
   <img alt="Python, Go, Bash, FastAPI, Django, Flask, PostgreSQL, Redis, MongoDB, RabbitMQ, Kafka" src="https://skillicons.dev/icons?i=py,go,bash,fastapi,django,flask,postgres,redis,mongodb,rabbitmq,kafka">
@@ -53,11 +41,11 @@ Backend engineer working with Python and Go in production. For the last two year
 | **Delivery** | Docker, Kubernetes, Helm, GitLab CI/CD, Jenkins, RPM, systemd, nginx |
 | **Storage and HA** | iSCSI, FC, NVMe-oF, multipath, ALUA, Ceph RBD, BTRFS, Device Mapper, two-controller cluster |
 | **Testing** | pytest, Go testing, integration tests in CI, fio, vdbench |
-| **AI tooling** | Claude Code (skills, hooks, subagents), MCP servers, LLM agents |
+| **AI tooling** | coding agents (skills, hooks, subagents), MCP servers, LLM agents |
 
 </details>
 
-## 💼 Experience
+<p><img src="assets/h-experience.svg" alt="Experience" width="100%"></p>
 
 <details open>
 <summary><b>Aerodisk</b> · storage system maker · Sep 2024 - now</summary>
@@ -103,7 +91,7 @@ Server side of the learning portal for robotics workshops.
 
 </details>
 
-## 🎓 Education and languages
+<p><img src="assets/h-education.svg" alt="Education and languages" width="100%"></p>
 
 - **Plekhanov Russian University of Economics**, BSc in Applied Informatics with honors, 2024
 - **Bauman Moscow State Technical University**, programming technician (college), 2021
