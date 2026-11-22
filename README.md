@@ -77,7 +77,7 @@ Server side of a storage system in Python and Go: a distributed system of two co
 </details>
 
 <details>
-<summary><b>ALONG</b> · mobile development studio · Sep 2023 - Aug 2024</summary>
+<summary><b>ALONG</b> · mobile development studio · Feb 2022 - Aug 2024</summary>
 <br>
 
 Backends of subscription mobile apps and medical system modules for a network of 13 clinics, in a group of 4 Python developers.
